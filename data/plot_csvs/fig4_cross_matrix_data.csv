@@ -1,0 +1,22 @@
+stage_group,category,DeepPCB,PKU-Market-PCB,Amazon-VisA,SolDef_AI
+Defect-Free,clean,482,0,851,117
+Stage 1: Bare Copper,open,3,243,0,0
+Stage 1: Bare Copper,short,119,153,0,0
+Stage 1: Bare Copper,mousebite,0,261,0,0
+Stage 1: Bare Copper,spur,9,239,0,0
+Stage 1: Bare Copper,spurious copper,24,228,0,0
+Stage 1: Bare Copper,pin-hole,247,0,0,0
+Stage 1: Bare Copper,missing hole,0,258,0,0
+Stage 2: Assembled PCBA,melted solder,0,0,201,0
+Stage 2: Assembled PCBA,missing component,0,0,196,0
+Stage 2: Assembled PCBA,surface scratch,0,0,195,0
+Stage 2: Assembled PCBA,bent pin,0,0,203,0
+Stage 2: Assembled PCBA,extra component,0,0,206,0
+Stage 2: Assembled PCBA,damaged component,0,0,202,0
+Stage 2: Assembled PCBA,misaligned component,0,0,208,0
+Stage 2: Assembled PCBA,surface contamination,0,0,205,0
+Stage 2: Assembled PCBA,burnt component,0,0,203,0
+Stage 3: Macro Solder,defective solder joint,0,0,0,199
+Stage 3: Macro Solder,solder spike,0,0,0,208
+Stage 3: Macro Solder,insufficient solder,0,0,0,204
+Stage 3: Macro Solder,excessive solder,0,0,0,200

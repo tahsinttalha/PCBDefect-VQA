@@ -1,0 +1,22 @@
+Category,Raw_Pool,Real_Selected,Aug_Train_Added,Train_Total,Val_Real,Test_Real,Total_V3
+clean,5633,1450,0,1020,215,215,1450
+bent pin,50,50,153,187,8,8,203
+burnt component,8,8,195,201,1,1,203
+damaged component,21,21,181,196,3,3,202
+defective solder joint,116,116,83,165,17,17,199
+excessive solder,47,47,153,186,7,7,200
+extra component,25,25,181,198,4,4,206
+insufficient solder,51,51,153,188,8,8,204
+melted solder,132,132,69,161,20,20,201
+misaligned component,13,13,195,204,2,2,208
+missing component,71,71,125,174,11,11,196
+missing hole,1374,258,0,180,39,39,258
+mousebite,1389,261,0,183,39,39,261
+open,1308,246,0,172,37,37,246
+pin-hole,1315,247,0,173,37,37,247
+short,1448,272,0,190,41,41,272
+solder spike,97,97,111,178,15,15,208
+spur,1323,248,0,174,37,37,248
+spurious copper,1344,252,0,176,38,38,252
+surface contamination,10,10,195,201,2,2,205
+surface scratch,70,70,125,175,10,10,195

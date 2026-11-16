@@ -1,0 +1,223 @@
+{
+  "dataset_name": "MuQA-VQA",
+  "release_file": "muqa_vqa_release.json",
+  "random_seed": 42,
+  "num_categories": 21,
+  "balancing_strategy": "Proportional downsampling with natural fluctuations on majority classes + leak-free, coordinate-aware Train-only optical augmentation on rare classes",
+  "total_images": 5864,
+  "total_real_images": 3945,
+  "total_augmented_train_images": 1919,
+  "total_qa_pairs": 23456,
+  "class_balance_summary": [
+    {
+      "Category": "clean",
+      "Raw_Pool": 5633,
+      "Real_Selected": 1450,
+      "Aug_Train_Added": 0,
+      "Train_Total": 1020,
+      "Val_Real": 215,
+      "Test_Real": 215,
+      "Total_V3": 1450
+    },
+    {
+      "Category": "bent pin",
+      "Raw_Pool": 50,
+      "Real_Selected": 50,
+      "Aug_Train_Added": 153,
+      "Train_Total": 187,
+      "Val_Real": 8,
+      "Test_Real": 8,
+      "Total_V3": 203
+    },
+    {
+      "Category": "burnt component",
+      "Raw_Pool": 8,
+      "Real_Selected": 8,
+      "Aug_Train_Added": 195,
+      "Train_Total": 201,
+      "Val_Real": 1,
+      "Test_Real": 1,
+      "Total_V3": 203
+    },
+    {
+      "Category": "damaged component",
+      "Raw_Pool": 21,
+      "Real_Selected": 21,
+      "Aug_Train_Added": 181,
+      "Train_Total": 196,
+      "Val_Real": 3,
+      "Test_Real": 3,
+      "Total_V3": 202
+    },
+    {
+      "Category": "defective solder joint",
+      "Raw_Pool": 116,
+      "Real_Selected": 116,
+      "Aug_Train_Added": 83,
+      "Train_Total": 165,
+      "Val_Real": 17,
+      "Test_Real": 17,
+      "Total_V3": 199
+    },
+    {
+      "Category": "excessive solder",
+      "Raw_Pool": 47,
+      "Real_Selected": 47,
+      "Aug_Train_Added": 153,
+      "Train_Total": 186,
+      "Val_Real": 7,
+      "Test_Real": 7,
+      "Total_V3": 200
+    },
+    {
+      "Category": "extra component",
+      "Raw_Pool": 25,
+      "Real_Selected": 25,
+      "Aug_Train_Added": 181,
+      "Train_Total": 198,
+      "Val_Real": 4,
+      "Test_Real": 4,
+      "Total_V3": 206
+    },
+    {
+      "Category": "insufficient solder",
+      "Raw_Pool": 51,
+      "Real_Selected": 51,
+      "Aug_Train_Added": 153,
+      "Train_Total": 188,
+      "Val_Real": 8,
+      "Test_Real": 8,
+      "Total_V3": 204
+    },
+    {
+      "Category": "melted solder",
+      "Raw_Pool": 132,
+      "Real_Selected": 132,
+      "Aug_Train_Added": 69,
+      "Train_Total": 161,
+      "Val_Real": 20,
+      "Test_Real": 20,
+      "Total_V3": 201
+    },
+    {
+      "Category": "misaligned component",
+      "Raw_Pool": 13,
+      "Real_Selected": 13,
+      "Aug_Train_Added": 195,
+      "Train_Total": 204,
+      "Val_Real": 2,
+      "Test_Real": 2,
+      "Total_V3": 208
+    },
+    {
+      "Category": "missing component",
+      "Raw_Pool": 71,
+      "Real_Selected": 71,
+      "Aug_Train_Added": 125,
+      "Train_Total": 174,
+      "Val_Real": 11,
+      "Test_Real": 11,
+      "Total_V3": 196
+    },
+    {
+      "Category": "missing hole",
+      "Raw_Pool": 1374,
+      "Real_Selected": 258,
+      "Aug_Train_Added": 0,
+      "Train_Total": 180,
+      "Val_Real": 39,
+      "Test_Real": 39,
+      "Total_V3": 258
+    },
+    {
+      "Category": "mousebite",
+      "Raw_Pool": 1389,
+      "Real_Selected": 261,
+      "Aug_Train_Added": 0,
+      "Train_Total": 183,
+      "Val_Real": 39,
+      "Test_Real": 39,
+      "Total_V3": 261
+    },
+    {
+      "Category": "open",
+      "Raw_Pool": 1308,
+      "Real_Selected": 246,
+      "Aug_Train_Added": 0,
+      "Train_Total": 172,
+      "Val_Real": 37,
+      "Test_Real": 37,
+      "Total_V3": 246
+    },
+    {
+      "Category": "pin-hole",
+      "Raw_Pool": 1315,
+      "Real_Selected": 247,
+      "Aug_Train_Added": 0,
+      "Train_Total": 173,
+      "Val_Real": 37,
+      "Test_Real": 37,
+      "Total_V3": 247
+    },
+    {
+      "Category": "short",
+      "Raw_Pool": 1448,
+      "Real_Selected": 272,
+      "Aug_Train_Added": 0,
+      "Train_Total": 190,
+      "Val_Real": 41,
+      "Test_Real": 41,
+      "Total_V3": 272
+    },
+    {
+      "Category": "solder spike",
+      "Raw_Pool": 97,
+      "Real_Selected": 97,
+      "Aug_Train_Added": 111,
+      "Train_Total": 178,
+      "Val_Real": 15,
+      "Test_Real": 15,
+      "Total_V3": 208
+    },
+    {
+      "Category": "spur",
+      "Raw_Pool": 1323,
+      "Real_Selected": 248,
+      "Aug_Train_Added": 0,
+      "Train_Total": 174,
+      "Val_Real": 37,
+      "Test_Real": 37,
+      "Total_V3": 248
+    },
+    {
+      "Category": "spurious copper",
+      "Raw_Pool": 1344,
+      "Real_Selected": 252,
+      "Aug_Train_Added": 0,
+      "Train_Total": 176,
+      "Val_Real": 38,
+      "Test_Real": 38,
+      "Total_V3": 252
+    },
+    {
+      "Category": "surface contamination",
+      "Raw_Pool": 10,
+      "Real_Selected": 10,
+      "Aug_Train_Added": 195,
+      "Train_Total": 201,
+      "Val_Real": 2,
+      "Test_Real": 2,
+      "Total_V3": 205
+    },
+    {
+      "Category": "surface scratch",
+      "Raw_Pool": 70,
+      "Real_Selected": 70,
+      "Aug_Train_Added": 125,
+      "Train_Total": 175,
+      "Val_Real": 10,
+      "Test_Real": 10,
+      "Total_V3": 195
+    }
+  ]
+}
