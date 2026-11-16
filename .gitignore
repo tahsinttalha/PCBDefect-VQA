@@ -1,0 +1,9 @@
+# Exclude heavy upstream image archives & local caches
+DeepPCB/
+PKU-Market-PCB/
+Amazon-VisA/
+SolDef_AI/
+augmented_train/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

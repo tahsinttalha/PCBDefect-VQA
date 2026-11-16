@@ -1,0 +1,9 @@
+source_dataset,display_label,train_count,val_count,test_count,total_images,total_qas
+DeepPCB,"DeepPCB
+(Stage 1: Bare Mono)",614,130,140,884,3536
+PKU-Market-PCB,"PKU-Market-PCB
+(Stage 1: Bare RGB)",974,209,199,1382,5528
+Amazon-VisA,"Amazon-VisA
+(Stage 2: Assembled PCBA)",2291,189,190,2670,10680
+SolDef_AI,"SolDef_AI
+(Stage 3: Macro Solder)",803,63,62,928,3712
