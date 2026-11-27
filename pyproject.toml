@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pcbdefect-vqa"
+version = "3.0.0"
+description = "Reproducible loader and evaluation harness for PCBDefect-VQA-v3.0"
+requires-python = ">=3.9"
+dependencies = [
+    "huggingface_hub",
+    "kagglehub",
+    "pillow",
+    "numpy",
+    "pandas",
+]
+
+[tool.setuptools]
+packages = ["pcbdefect_vqa"]
